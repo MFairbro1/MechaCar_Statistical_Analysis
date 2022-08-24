@@ -43,17 +43,17 @@ lot_summary
 
 # Using t-test for all lots for mu=1500
 
-t.test(susp_coil$PSI, mu=mean(susp_coil$PSI))
+t.test(susp_coil$PSI, mu=1500)
 
 # Using t-test on lot 1
 
-t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot1"), mu=mean(susp_coil$PSI))
+t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot1"), mu=1500)
 
 # Using t-test for lot 2
 
-t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot2"), mu=mean(susp_coil$PSI))
+t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot2"), mu=1500)
 
 # Using t-test for lot 3
 
-t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot3"), mu=mean(susp_coil$PSI))
+t.test(subset(susp_coil$PSI, susp_coil$Manufacturing_Lot == "Lot3"), mu=1500)
 
