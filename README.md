@@ -25,3 +25,20 @@
 ![Capture3](https://user-images.githubusercontent.com/104467100/186350474-c3348974-2468-4198-a729-641c4bd29a8d.PNG)
 ![Capture4](https://user-images.githubusercontent.com/104467100/186350898-ffab1998-9a8f-4517-9b9b-3e2ddf5f2cdf.PNG)
 
+### After performing t-tests on the manufacturing lots we can see that the t-test for all lots shows no statistical difference from the population mean of 1500 PSI based on the p-value. The same is true for lots 1 and 2 individually. When we look at lot 3 however, we see there is a statistical difference based on the p-value of less than 0.05.
+
+## Study Design: MechaCar vs Competition
+
+### A primary concern of those seeking to purchase a family vehicle are the safety features. Therefore, a vehicle's safety rating is a valuable metric to study.
+
+### The null and alternate hypotheses for such an analysis could be:
+
+### H<sub>0</sub>: The MechaCar prototype cars have statistically similar safety ratings to other vehicles of the same type
+
+### H<sub>a</sub>: The MechaCar prototypes have statistically better or poorer safety ratings than other vehicles of the same type
+
+### For this kind of evaluation a two-sample t-test would likely be the best statistical test since it compares population means of two groups and determines whether they are equal.
+
+### The data required for this study would be collision test data and rollover strength test data for the vehicles.
+
+
